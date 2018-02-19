@@ -1,0 +1,53 @@
+<!--
+======================================================================================================================================================
+ $$$$$$\            $$\                     $$\            $$\                     $$$$$$$\                  $$\ $$\                     
+$$  __$$\           $$ |                    $$ |           $$ |                    $$  __$$\                 $$ |\__|                    
+$$ /  \__| $$$$$$\  $$ | $$$$$$$\ $$\   $$\ $$ | $$$$$$\ $$$$$$\    $$$$$$\        $$ |  $$ | $$$$$$\   $$$$$$$ |$$\ $$\   $$\  $$$$$$$\ 
+$$ |       \____$$\ $$ |$$  _____|$$ |  $$ |$$ | \____$$\\_$$  _|  $$  __$$\       $$$$$$$  | \____$$\ $$  __$$ |$$ |$$ |  $$ |$$  _____|
+$$ |       $$$$$$$ |$$ |$$ /      $$ |  $$ |$$ | $$$$$$$ | $$ |    $$$$$$$$ |      $$  __$$<  $$$$$$$ |$$ /  $$ |$$ |$$ |  $$ |\$$$$$$\  
+$$ |  $$\ $$  __$$ |$$ |$$ |      $$ |  $$ |$$ |$$  __$$ | $$ |$$\ $$   ____|      $$ |  $$ |$$  __$$ |$$ |  $$ |$$ |$$ |  $$ | \____$$\ 
+\$$$$$$  |\$$$$$$$ |$$ |\$$$$$$$\ \$$$$$$  |$$ |\$$$$$$$ | \$$$$  |\$$$$$$$\       $$ |  $$ |\$$$$$$$ |\$$$$$$$ |$$ |\$$$$$$  |$$$$$$$  |
+ \______/  \_______|\__| \_______| \______/ \__| \_______|  \____/  \_______|      \__|  \__| \_______| \_______|\__| \______/ \_______/                                                                                    
+======================================================================================================================================================
+-->
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="calculate radius with canvas">
+        <meta name="keywords" content="calculate, radius, canvas">
+        <meta name="author" content="Aviv Haruzi">
+        <title>Calculate Radius</title>
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/sweetalert/sweetalert.min.css">
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <link rel="shortcut icon" type="image/x-icon" href="images/web-icons/favicon.ico">
+        <link rel="icon" type="image/png" href="images/web-icons/icon.png">
+    </head>
+    <body>
+        <div class="container">
+            <h2 class="text-center bg-dark text-light">Calculate Radius</h2>
+            <div class="row">
+                <div class="col-lg-6 text-center">
+                    <input type="text" class="form-control" name="radius" id="radius" placeholder="Radius">
+                    <input type="text" class="form-control" name="volume" id="volume" readonly>
+                    <button id="calculate" class="btn btn-warning btn-lg btn-cs btn-block">Calculate</button>
+                </div>
+                <div class="col-lg-6 text-center">
+                    <canvas id="myCanvas" width="500" height="500"></canvas>
+                    <p><button id="start" class="btn btn-success btn-cs btn-lg">Start</button></p>
+                    <p><button id="stop" class="btn btn-danger btn-cs btn-lg">Stop</button></p>
+                    <p><button id="clear" class="btn btn-primary btn-cs btn-lg">Clear</button></p>
+                </div>
+            </div>
+        </div>
+        <script src="js/jquery/jquery-3.2.1.min.js"></script>
+        <script src="js/tether/tether.min.js"></script>
+        <script src="js/bootstrap/bootstrap.min.js"></script>
+        <script src="js/sweetalert/sweetalert.min.js"></script>
+        <script src="js/app.js"></script>
+    </body>
+</html>
