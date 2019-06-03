@@ -1,2 +1,3 @@
-# calculate-radius
-one of my first tasks of html and javascript with canvas
+# Calculate Radius
+
+One of my first tasks of html and javascript with canvas
